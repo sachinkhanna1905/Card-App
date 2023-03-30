@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.cart-item{
+   /* it will place left and right block side by side  */
+  display:inline-flex;
+  margin: 20px 10px;
+}
+.cart-item .right-block{
+   /* it will create space between left and right block  */
+  padding: 0 20px;
+}
+
+.cart-item-actions{
+  /* display:inline-block */
+  margin-top: 20px;
+}
+
+
+ .action-icons{
+  height: 25px;
+  width:25px;
+  margin-right:10px;
+}
+
+.actions-icons:hover{
+  cursor: pointer;
+  background-color:antiquewhite;
+} 
+.cart{
+  display:flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
